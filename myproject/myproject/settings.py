@@ -81,10 +81,10 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'djangotestdb',
-        'USER': 'lambda_dev',
+        'NAME': 'd9pj6aqvn4dkdf',
+        'USER': 'imtyeqrjjjvchd',
         'PASSWORD': config('DB_PWD'),
-        'HOST': 'localhost',
+        'HOST': 'ec2-3-215-41-107.compute-1.amazonaws.com',
         'PORT': '',
     }
 }
